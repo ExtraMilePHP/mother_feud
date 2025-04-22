@@ -61,7 +61,7 @@ include_once 'dao/config.php';
             </div>
             <div class="col-md-12 text-center" style="margin-top:15px;">
                 <?php if(isset($loginSuccess)){
-           echo '<a href="game.php"><div class="btn btn-info begin">BEGIN PLAY</div></a>';
+           echo '<a href="rules.php"><div class="btn btn-info begin">BEGIN PLAY</div></a>';
     }?>
 
             </div>
