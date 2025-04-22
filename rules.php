@@ -88,6 +88,7 @@ include 'dao/config.php';
             background-repeat: no-repeat;
             height: 100%;
             width: 100%;
+            background-size: 100% 100%;
             /* position: relative; */
         }
 
