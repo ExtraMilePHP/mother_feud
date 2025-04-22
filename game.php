@@ -25,7 +25,7 @@ if($count>0){
     $points=mysqli_fetch_object($checking);
     $points=$points->points;
     $_SESSION['uniqueMsg']=" Your score is ".$points."";
-    header("Location: ../thankyou_WD.php");
+    header("Location: thankyou.php");
 }
 
 
@@ -52,7 +52,7 @@ while($get=mysqli_fetch_array($getData)){
 <html>
 
 <head>
-    <title>Equity Feud</title>
+    <title>Mother's day Feud</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="apple-mobile-web-app-capable" content="yes">
@@ -812,7 +812,7 @@ while($get=mysqli_fetch_array($getData)){
                     $("#popupgif").show();
                     setTimeout(() => {
                         $("#popupgif").hide();
-                        location.href = ("../thankyou_WD.php");
+                        location.href = ("thankyou.php");
                     }, "1500");
 
                     } else if (data.isdemo == "true") {
@@ -823,7 +823,7 @@ while($get=mysqli_fetch_array($getData)){
                     $("#popupgif").show();
                     setTimeout(() => {
                         $("#popupgif").hide();
-                        location.href = ("../thankyou_WD.php");
+                        location.href = ("thankyou.php");
                     }, "1500");
                 }
             }

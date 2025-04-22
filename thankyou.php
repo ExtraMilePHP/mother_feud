@@ -285,9 +285,9 @@ while($get=mysqli_fetch_array($getData)){
                 <!-- <div class="col-md-12 text-center" style="<?php if($isRated OR $isdemo){echo "display:none";}?>">
                     <div class="btn btn-md rate" onclick="rate()">Rate this game</div>
                 </div> -->
-                <div class="col-md-12 text-center">
+                <!-- <div class="col-md-12 text-center">
                     <div class="btn btn-md" id="answerid">Click here to find out the answer</div>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="modal" id="myModal" role="dialog">

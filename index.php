@@ -3,7 +3,7 @@
 
 <head>
     <?php include_once("../seo-head.php");?>
-    <title>Equity Feud</title>
+    <title>Mother's day Feud</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css" />
     <!-- <link href="css/style-one.css?v=5" type="text/css" rel="stylesheet"> -->
