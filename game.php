@@ -818,9 +818,12 @@ while($get=mysqli_fetch_array($getData)){
                     }, "1500");
 
                     } else if (data.isdemo == "true") {
+                        // alert("dem0");
+                        // window.location = "<?php echo $base_url?>/plans";
                     swal("Thank you for playing.Subscribe to any PLAN to play with your peers.", "",
                         "success").then(() => {
-                        location.href = ("https://extramileplay.com/plans");
+                            
+                            window.location = "<?php echo $base_url?>/plans";
                     });
                     $("#popupgif").show();
                     setTimeout(() => {
