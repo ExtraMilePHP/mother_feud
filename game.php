@@ -70,6 +70,8 @@ while($get=mysqli_fetch_array($getData)){
 
     }
 
+
+    
     .option-text {
         /* border-left: 25px solid #e25569; */
         background-image: url("image/Options_Tabs.png");
