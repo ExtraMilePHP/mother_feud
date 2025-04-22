@@ -261,16 +261,17 @@ while($get=mysqli_fetch_array($getData)){
         float: none;
     }
     </style>
+     <?php include("../actions-default.php");  back("https://extramileplay.com");?>
 
     <div class="container-fluid upperaction" style="margin-top:10px;">
-        <div class="row">
+        <!-- <div class="row">
             <div class="logo-holder"><a href="https://extramileplay.com"><img
                         src="https://extramileplay.com/php/imp/logo/extramileplay-new.png"
                         class="extramileplay-logo" /></a></div>
             <div class="back-holder" style="border-left:3px solid black;"><a href="https://extramileplay.com">
                     <div class="btn btn-info btn-md back-default">HOME</div>
                 </a></div>
-        </div>
+        </div> -->
         <div class="container-fluid container-control">
             <div class="row">
                 <div class="col-md-12 auto">
