@@ -71,7 +71,7 @@ while($get=mysqli_fetch_array($getData)){
     }
 
 
-    
+
     .option-text {
         /* border-left: 25px solid #e25569; */
         background-image: url("image/Options_Tabs.png");
@@ -593,7 +593,7 @@ while($get=mysqli_fetch_array($getData)){
     }
 
     console.log(question_hint);
-    console.log(point1,"points 1");
+    console.log(point1, "points 1");
 
 
 
@@ -810,6 +810,7 @@ while($get=mysqli_fetch_array($getData)){
             success: function(d) {
                 console.log(d);
                 var data = JSON.parse(d);
+                console.log("this si demo", d);
                 if (data.success == "true") {
                     $("#popupgif").show();
                     setTimeout(() => {
@@ -817,19 +818,19 @@ while($get=mysqli_fetch_array($getData)){
                         location.href = ("thankyou.php");
                     }, "1500");
 
-                    } else if (data.isdemo == "true") {
-                        // alert("dem0");
-                        // window.location = "<?php echo $base_url?>/plans";
+                } else if (data.isdemo == "true") {
+                    // alert("dem0");
+                    // window.location = "<?php echo $base_url?>/plans";
                     swal("Thank you for playing.Subscribe to any PLAN to play with your peers.", "",
                         "success").then(() => {
-                            
-                            window.location = "<?php echo $base_url?>/plans";
+                        window.location = "<?php echo $base_url?>/plans";
                     });
-                    $("#popupgif").show();
-                    setTimeout(() => {
-                        $("#popupgif").hide();
-                        location.href = ("thankyou.php");
-                    }, "1500");
+                    // $("#popupgif").show();
+                    // setTimeout(() => {
+                    //     $("#popupgif").hide();
+                    //     // location.href = ("thankyou.php");
+                    //     window.location = "<?php echo $base_url?>/plans";
+                    // }, "1500");
                 }
             }
         });
